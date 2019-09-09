@@ -24,8 +24,7 @@ else
 	echo express evaluated as false
 fi
 
-#write a script that does different things 
-#based on the presence of a string in the password file:
+#write a script that does different things based on the presence of a string in the password file:
  
 if grep -q root /etc/passwd; then
   echo root is in the password file
